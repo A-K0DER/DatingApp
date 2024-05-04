@@ -26,6 +26,6 @@ export class NavComponent implements OnInit {
   }
 
   logout(){
-    localStorage.removeItem('user');
+    this.accountService.logout();
   }
 }

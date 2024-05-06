@@ -29,18 +29,6 @@ namespace API.Controllers{
             return thing.UserName;
         }
 
-        // [HttpGet("auth")]
-        // public ActionResult<string> GetSecret()
-        // {
-        //     return "secret text";
-        // }
-
-        // [HttpGet("auth")]
-        // public ActionResult<string> GetSecret()
-        // {
-        //     return "secret text";
-        // }
-
     }
 }
 

@@ -20,7 +20,7 @@ namespace API.Controllers{
             return "secret text";
         }
 
-        [HttpGet("not-found")]
+        [HttpGet("server-error")]
         public ActionResult<string> FirstNotFound()
         {
             var thing = _context.Users.Find(-1);
